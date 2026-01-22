@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #076caf, #009ed0, #2fbedc, #89ebe4);
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+}
+
+/* Style du bouton */
+button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: white;
+    color: #076caf;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
