@@ -11,7 +11,8 @@ bouton.addEventListener('click', function() {
             // Pour chaque ligne, on crée un élément <li>
             donnees.results.forEach(function(ligne) {
                 const li = document.createElement('li');
-                li.textContent = ligne.id_ligne;
+                li.textContent = ligne.nom_ligne;
+                li.classList.add('box'); 
                 liste.appendChild(li);
             });
         });

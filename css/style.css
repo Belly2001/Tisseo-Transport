@@ -39,3 +39,28 @@ button:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
+
+/*concernant les ULs */
+div {
+    width: 50%;              /* Le div doit avoir une largeur définie */
+    margin: 0 auto;          /* auto = centre automatiquement */
+    display: flex;
+    justify-content: center;   /* Centre le contenu horizontalement */
+    align-items: center;
+}
+
+.box {
+  display: flex;
+  width: 50%; /* Largeur de la box */
+  padding: 20px; /* Espacement interne */
+  margin: 30px auto; /* Centrer la box horizontalement */
+ background-image: linear-gradient(to bottom, #affafc, #98f3fa, #80ebfa, #64e3fa, #41dbfb);
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: all 0.3s ease;
+}
+
+.box:hover{     
+    background:  aliceblue;
+    transform: translateY(-2px);
+}
