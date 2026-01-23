@@ -7,8 +7,9 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom, #076caf, #009ed0, #2fbedc, #89ebe4);
-    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #076caf, #0079b8, #0085c1, #0092c9, #009ed0, #0ba9d5, #1eb3d9, #2fbedc, #47cade, #5ed5e0, #73e0e2, #89ebe4);
+    background-attachment: fixed; /* Le background reste fixe */
+    margin: 0;
 }
 
 
